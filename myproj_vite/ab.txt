@@ -1,0 +1,5 @@
+1. Write a Django URL pattern and corresponding view function for displaying a list of products.
+2. Describe how template inheritance works in Django.
+3. Discuss the purpose of the Django admin panel and its advantages.
+4. Create a base template that defines a common structure for all pages, and then create a child template that extends the base template and adds specific content.
+5. Customize the Django admin panel to display additional fields or filters for a specific model.
