@@ -29,7 +29,7 @@ input[type=text], select, textarea {
   /* Create two columns that float next to eachother */
   .column {
     float: left;
-    width: 50%;
+    /* width: 50%; */
     margin-top: 6px;
     padding: 20px;
   }

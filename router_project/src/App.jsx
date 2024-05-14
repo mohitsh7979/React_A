@@ -8,20 +8,23 @@ import Footer from './Footer/Footer'
 import { Routes , Route} from 'react-router-dom'
 
 function App() {
+
+  let a = "Mohit Sharma";
   
   return (
     <>
 
     <Header />
 
+
     <Routes>
        <Route path='/' element = {<Home />} />
-       <Route path='/about' element = {<About />}/>
+       <Route path='/about' element = {<About data = {a} />}/>
        <Route path='/blog' element = {<Blog />} />
        <Route path='/contact' element = {<Contact />}/>
     </Routes>
      
-    <Footer />
+    {/* <Footer /> */}
    
     </>
   )
