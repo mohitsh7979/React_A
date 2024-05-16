@@ -1,6 +1,6 @@
 import "./App.css";
 import Header from "./Header";
-import Home from "./Home";
+import Home from "./Home/Home";
 import About from "./About/About";
 import Blog from "./Blog";
 import Contact from "./Contact/Contact";

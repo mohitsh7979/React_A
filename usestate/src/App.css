@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box{
+
+   height: 300px;
+   width: 500px;
+   border: 2px solid white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 50px;
+}
+
+button{
+
+  padding: 10px 40px;
+  margin: 10px;
+  background-color: green;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
